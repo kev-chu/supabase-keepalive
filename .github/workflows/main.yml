@@ -1,4 +1,3 @@
-
 - name: Write to Supabase database
   env:
     SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
