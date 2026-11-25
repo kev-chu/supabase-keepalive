@@ -7,4 +7,4 @@
       -X POST "$SUPABASE_URL/rest/v1/keepalive" \
       -H "apikey: $SUPABASE_SECRET_KEY" \
       -H "Content-Type: application/json" \
-      -d '{"created_at":"now()"}'
+      -d '{"name":"keepalive"}'
